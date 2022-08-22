@@ -71,6 +71,13 @@ public class Tests {
         }
 
     }
+//    @Test(priority = 3)
+//    public void DepartureDateSelect() {
+//        List<WebElement> calendar = driver.findElements(By.cssSelector(" [aria-disabled='false'] [class='CalendarDay__content']"));
+//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//        calendar.get(0).click();
+//
+//    }
 
     //Take a departure date from DateUtil class and then enter the label.
     @Test(priority = 3)
@@ -99,7 +106,7 @@ public class Tests {
     }
 
 
-    //After choose all informations click button for search a ticket.
+    //After choose all information click button for search a ticket.
     @Test(priority = 5)
     public void FindTicket() {
         try {

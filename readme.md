@@ -1,6 +1,6 @@
 # Ending Project for Enuygun Test Automation Bootcamp
 
-With this project automated a few test for Enuygun flight tickets. Used Allure for reporting.
+With this project automated a few test for Enuygun flight tickets. Used Allure for reporting and Log4j for logging.
 - Examples for tests ;
 - User gives an origin and target input,
 - User gives departure and return date,
@@ -25,6 +25,7 @@ Testng used for this project just press green button at left Tests
 * [Maven](https://maven.apache.org/) - Dependency management
 * [TestNG](https://testng.org/doc/index.html) - Test framework 
 * [Allure](https://github.com/allure-framework) - Report framework 
+* [Log4j](https://logging.apache.org/log4j/2.x/) - Log framework 
 
 ## Authors
 
